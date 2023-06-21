@@ -25,12 +25,53 @@
     --fonte-texto: 'Crimson Pro', serif;
 }
 
+
 #cabecalho{
-    background-color: var(--cor3);
+    background-image: linear-gradient(to right, #ffa630, #ff7b9c );
+}
+#redessociais{
+ 
+}
+
+
+#logo{
+    width: 250px;
+    margin-left: 10px;
+}
+#redeseimg{
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-family: var(--fonte-redes);
 }
 
 #imgredes{
-    
+    padding: 10px;
     width: 50px;
+    border-radius: 50%;
+}
+#menu{
+    background-color: var(--cor3);
+    
+}
+#menu2{
+        
+}
+#menu3{
+    display: inline-block;
+    padding: 10px;
+}
+
+#videos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;   
+}
+#frame{
+    width: 360px;
+    height: 215px;
+    padding: 10px;
 }
     
