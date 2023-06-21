@@ -14,13 +14,23 @@
 }
 :root{
     --cor0: #29335c;
-    --cor1: #ffc15e;
-    --cor2: #f4faff;
-    --cor3: #00a6a6;
-    --cor4: #9a031e;
-    --cor5: #4f6d7a;
+    --cor1: #a20021;
+    --cor2: #ffa630;
+    --cor3: #47e5bc;
+    --cor4: #008bf8;
+    --cor5: #ff7b9c;
     --fonte-padrao: arial, verdana, helvetica, sans-serif;
     --fonte-destaque: "patua one", cursive;
     --fonte-redes: 'Sofia', cursive;
     --fonte-texto: 'Crimson Pro', serif;
 }
+
+#cabecalho{
+    background-color: var(--cor3);
+}
+
+#imgredes{
+    
+    width: 50px;
+}
+    
