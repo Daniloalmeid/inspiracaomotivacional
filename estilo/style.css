@@ -70,6 +70,7 @@ body{
     align-items: center;
     flex-wrap: wrap;
     padding: 10px; 
+    
 }
 #frases{
     width: 300px;
@@ -77,6 +78,8 @@ body{
     padding: 10px;
     margin: 10px;
     font-family: var(--fonte-texto);
+    border-radius: 30px;
+    border: solid 3px var(--cor1);
 }
 
 #videos{
