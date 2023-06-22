@@ -84,7 +84,6 @@ body{
    /* display: grid;
     justify-content: center;
     grid-template-columns: repeat(3, 1fr);*/
-    background-color: #008bf8;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -101,16 +100,17 @@ body{
     padding: 10px;
     
 }
-#teste{
+#imgcitacoes{
     width: 170px;
     height: 140px;
     padding: 10px;
-    margin: 10px;
-    
-    background-color: #a20021;
-    
-    
-   
-   
-    
+    margin: 10px; 
+}
+
+#imgcitacoes > img{
+   border-radius: 10px;
+   border: solid #ffa630;
+}
+#imgcitacoes >img:hover{
+    border: solid white;
 }
