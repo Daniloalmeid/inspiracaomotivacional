@@ -74,6 +74,11 @@ body{
     
     
 }
+#linkmenu{
+    text-decoration: none;
+    color: black;
+    font-family: var(--fonte-padrao);
+}
 #h1frases{
     background-color: var(--cor4);
     padding: 10px;
