@@ -86,9 +86,12 @@ body{
     grid-template-columns: repeat(3, 1fr);*/
     background-color: #008bf8;
     display: flex;
-    
+    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;   
     
+   
 
  
     
