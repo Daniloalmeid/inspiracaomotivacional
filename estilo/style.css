@@ -163,4 +163,49 @@ hr{
     width: 300px;
    text-align: center;
 }
+
+#footer{
+    background-image: linear-gradient(to right, #ffa630, #ff7b9c );
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px;
+
+}
+#containerfooter{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px;
+    background-image: linear-gradient(to right, #ffa630, #ff7b9c );
+    display: grid;
+    
+}
+
+#imgfooter{
+    width: 200px;
+    margin-left: 10px;
+}
+
+/*#menufoo{
+    
+    
+    
+}
+#ulmenufoo{
+    
+}
+#limenufoo{
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none; 
+}
+#linkmenufoo{
+    text-decoration: none;
+    color: black;
+    font-family: var(--fonte-padrao);
+}
+
+#imgfooter{
+    width: 200px;
+    margin-left: 10px;
+}
     
