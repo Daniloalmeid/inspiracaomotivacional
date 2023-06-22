@@ -89,16 +89,17 @@ body{
     align-items: center;
     flex-wrap: wrap;
     padding: 10px;   
-    
-   
-
- 
-    
 
 }
 #containermelhores > h3{
     padding: 10px;
     
+}
+
+#h1frasesmaisvistas{
+    text-align: center;
+    margin-top: 10px;
+    font-family: var(--fonte-texto);
 }
 #imgcitacoes{
     width: 170px;
