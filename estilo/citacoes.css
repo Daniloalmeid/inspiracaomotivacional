@@ -113,4 +113,6 @@ body{
 }
 #imgcitacoes >img:hover{
     border: solid white;
+    transform: translate( 2px, -5px);
+    transition: transform 0.4s, border .2s;
 }
