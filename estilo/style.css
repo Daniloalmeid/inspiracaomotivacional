@@ -6,9 +6,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200;1,200&family=Newsreader:wght@200&family=Sofia&display=swap');
 
-<style>
+
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,200;0,300;0,400;1,200;1,300&display=swap');
-</style>
+
 
 
 *{
@@ -99,7 +99,7 @@ body{
     font-size: 1.3em;
 }
 #containericon{
-    position: relative;
+    height: 60px;
     text-align: center;
     background-color:var(--cor2);
     border-radius: 30px;
@@ -113,14 +113,15 @@ body{
     margin-left: 10px;
 }
 #imgfrases{
-    position: relative;
     width: 30px;
     border-radius: 50%;
     padding: 5px;
-    
-    
-   
+    float: right;
+    margin-right: 10px;
+      
 }
+
+
 #divisao{
     background-color: var(--cor4);
     padding: 10px;
