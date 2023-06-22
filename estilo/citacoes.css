@@ -80,6 +80,7 @@ body{
     font-family: var(--fonte-padrao);
 }
 #containermelhores{
+    text-align: center;
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(3, 1fr);
