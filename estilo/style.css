@@ -137,6 +137,33 @@ hr{
       
 }
 
+#containerautores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+#autores{
+    background-color: var(--cor3);
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+
+#autores:hover{
+    border: solid white;
+    background-color: white;
+    
+}
+#autores > a{
+    color: black;
+    text-decoration: none;
+}
+
 
 #divisao{
     background-color: var(--cor4);
@@ -164,24 +191,7 @@ hr{
    text-align: center;
 }
 
-#containerautores{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    
-}
 
-#autores{
-    background-color: var(--cor3);
-    padding: 10px;
-    margin: 5px;
-    text-decoration: none;
-}
-#autores > a{
-    color: black;
-    text-decoration: none;
-}
 
 #footer{
     background-image: linear-gradient(to right, #ffa630, #ff7b9c );
