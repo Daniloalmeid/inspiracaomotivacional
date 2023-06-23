@@ -164,6 +164,20 @@ hr{
    text-align: center;
 }
 
+#containerautores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px; 
+}
+
+#autores{
+    padding: 10px;
+    margin: 5px;
+    
+}
+
 #footer{
     background-image: linear-gradient(to right, #ffa630, #ff7b9c );
     display: grid;
