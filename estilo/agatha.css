@@ -84,6 +84,9 @@ body{
     text-align: center;
     padding: 10px;
     margin: 10px;
+    font-family: var(--fonte-texto2);
+    text-justify: auto;
+    text-indent: 10px;
 
 }
 #h1frases{
