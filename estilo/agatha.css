@@ -79,12 +79,7 @@ body{
     color: black;
     font-family: var(--fonte-padrao);
 }
-#containerp{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
+
 #pimg{
     width: 200px;
     
