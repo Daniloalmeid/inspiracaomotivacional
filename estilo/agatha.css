@@ -80,6 +80,15 @@ body{
     font-family: var(--fonte-padrao);
 }
 
+#containeragatha{
+    width: 50vw;
+   
+    margin: auto;
+   
+    
+    background-color: #a20021;
+  }
+
 #pimg{
     width: 200px;
     
@@ -93,6 +102,7 @@ body{
     text-justify: auto;
     text-indent: 10px;
     font-size: 1.2em;
+    background-color: white;
     
 
 }
@@ -116,6 +126,7 @@ body{
     padding: 10px; 
     
 }
+
 #frases{
     position: relative;
     width: 300px;
