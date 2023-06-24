@@ -81,12 +81,13 @@ body{
 }
 
 #pagatha{
-    text-align: center;
-    padding: 10px;
+    
+    padding: 5px;
     margin: 10px;
     font-family: var(--fonte-texto2);
     text-justify: auto;
     text-indent: 10px;
+    font-size: 1.2em;
 
 }
 #h1frases{
