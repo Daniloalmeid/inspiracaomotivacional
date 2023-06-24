@@ -102,6 +102,13 @@ body{
     
 
 }
+#aspas1{
+    width: 30px;
+}
+#aspas2{
+    width: 30px;
+    float: right;
+}
 #pagatha > a{
     text-decoration: none;
 }
