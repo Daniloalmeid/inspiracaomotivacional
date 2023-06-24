@@ -88,7 +88,11 @@ body{
     text-justify: auto;
     text-indent: 10px;
     font-size: 1.2em;
+    
 
+}
+#pagatha > a{
+    text-decoration: none;
 }
 #h1frases{
     background-color: var(--cor4);
