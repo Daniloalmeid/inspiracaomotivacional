@@ -220,8 +220,13 @@ hr{
     width: 200px;
     margin-left: 10px;
 }
+#direitos{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
 
-/*#menufoo{
+#menufoo{
     
     
     
@@ -230,7 +235,6 @@ hr{
     
 }
 #limenufoo{
-    display: inline-block;
     padding: 10px;
     text-decoration: none; 
 }
