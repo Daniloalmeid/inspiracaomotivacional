@@ -37,9 +37,6 @@ body{
 #cabecalho{
     background-image: linear-gradient(to right, #ffa630, #ff7b9c );
 }
-#redessociais{
- 
-}
 
 
 #logo{
@@ -63,9 +60,7 @@ body{
     
     
 }
-#ulmenu{
-    
-}
+
 #limenu{
     display: inline-block;
     padding: 10px;
