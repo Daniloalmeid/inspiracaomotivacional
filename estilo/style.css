@@ -234,23 +234,32 @@ hr{
     text-align: center;
 }
 
+
+
 #menufoo{
+    text-decoration: none;
     
     
     
 }
-#ulmenufoo{
+#ulmenufoo > a{
+    text-decoration: none;
+  
     
 }
 #limenufoo{
+    display: block;
     padding: 10px;
-    text-decoration: none; 
+    text-decoration: none;
+    
 }
 #linkmenufoo{
-    text-decoration: none;
     color: black;
     font-family: var(--fonte-padrao);
+    text-decoration: none;
+    
 }
+
 
 #imgfooter{
     width: 200px;
