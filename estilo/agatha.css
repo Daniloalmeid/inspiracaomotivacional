@@ -105,6 +105,7 @@ body{
     width: 30px;
     float: right;
 }
+
 #pagatha > a{
     text-decoration: none;
 }
@@ -125,7 +126,6 @@ body{
     padding: 10px; 
     
 }
-
 #frases{
     position: relative;
     width: 300px;
@@ -138,6 +138,9 @@ body{
     border-radius: 30px;
     border: solid 3px var(--cor1);
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.493);
+}
+#frases:hover{
+    border: solid 3px rgb(188, 174, 174);
 }
 #pfrases{
     font-size: 1.3em;
@@ -213,7 +216,7 @@ hr{
 
 #limenufoo{
     display: block;
-    padding: 10px;
+    padding: 5px;
     text-decoration: none; 
 }
 #linkmenufoo{
