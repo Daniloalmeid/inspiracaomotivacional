@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z1B8P9FYN5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Z1B8P9FYN5');
+</script>
+
+<!-- google adsence -->
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7162415049579984"
+     crossorigin="anonymous"></script>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maya Angelou</title>
+    <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilo/agatha.css">
+</head>
+<body>
+    <script>
+
+        window.addEventListener('DOMContentLoaded', function() {
+       var containerFrases = document.getElementById('containerfrases');
+   
+       /*var frases = [
+           "Tudo vale a pena quando a alma não é pequena.",
+           "Aquele que luta com monstros deve acautelar-se para não tornar-se também um monstro.",
+           "Sem música, a vida seria um erro.",
+           "Aquilo que não me mata, só me fortalece."
+           // Adicione as outras 97 frases aqui... */
+
+           var frases = [
+           
+          
+           
+           // Adicione as outras 97 frases aqui...
+           
+       ];
+   
+       for (var i = 0; i < frases.length; i++) {
+           var divFrases = document.createElement('div');
+           divFrases.id = 'frases';
+   
+           var imgAspas1 = document.createElement('img');
+           imgAspas1.id = 'aspas1';
+           imgAspas1.src = 'imagens/icon/aspas1.png';
+           imgAspas1.alt = '  Maya Angelou,motivação, inspiração motivacional, frases do dia' + frases[i];
+   
+           var pFrase = document.createElement('p');
+           pFrase.id = 'pfrases';
+           pFrase.textContent = frases[i];
+   
+           var imgAspas2 = document.createElement('img');
+           imgAspas2.id = 'aspas2';
+           imgAspas2.src = 'imagens/icon/aspas2.png';
+           imgAspas2.alt = 'Aspas, Frases   Maya Angelou '  + frases[i];
+   
+           var pAutor = document.createElement('p');
+           var aAutor = document.createElement('a');
+           aAutor.href = 'maya_angelou.html';
+           aAutor.textContent = '  Maya Angelou ';
+   
+           pAutor.appendChild(document.createElement('br')); // Adiciona uma quebra de linha
+           pAutor.appendChild(aAutor);
+   
+           var divContainerIcon = document.createElement('div');
+           divContainerIcon.id = 'containericon';
+   
+           var h4Compartilhar = document.createElement('h4');
+           h4Compartilhar.textContent = 'Compartilhar Frase';
+   
+           var imgCompartilhar = document.createElement('img');
+           imgCompartilhar.id = 'imgcompartilhar';
+           imgCompartilhar.src = 'imagens/icon/compartilhar.png';
+           imgCompartilhar.alt = 'Compartilhar frases motivacionais, compartilhar frases de Maya Angelou,Citações inspiradoras, Sucesso pessoal';
+   
+           var linkWhatsApp = document.createElement('a');
+           linkWhatsApp.href = 'https://api.whatsapp.com/send?text=' + encodeURIComponent(frases[i]) + ' https://www.inspiracaomotivacional.com.br/';
+           linkWhatsApp.target = '_blank';
+           var imgWhatsApp = document.createElement('img');
+           imgWhatsApp.id = 'imgfrases';
+           imgWhatsApp.src = 'imagens/redessociais/watz.png';
+           imgWhatsApp.alt = 'Compartilhar frases motivacionais no WhatsApp, compartilhar frases de Maya Angelou,Motivação diária, Sonhos e realizações';
+           linkWhatsApp.appendChild(imgWhatsApp);
+   
+           var linkFacebook = document.createElement('a');
+           linkFacebook.href = 'https://www.facebook.com/sharer/sharer.php?u=https://inspiracaomotivacional.com.br/';
+           linkFacebook.target = '_blank';
+           var imgFacebook = document.createElement('img');
+           imgFacebook.id = 'imgfrases';
+           imgFacebook.src = 'imagens/redessociais/logo-facebook.png';
+           imgFacebook.alt = 'Compartilhar frases motivacionais no Facebook, compartilhar frases de  Maya Angelou,Transformação pessoal';
+           linkFacebook.appendChild(imgFacebook);
+   
+           var linkTwitter = document.createElement('a');
+           linkTwitter.href = 'https://twitter.com/intent/tweet?url=https://www.inspiracaomotivacional.com.br&text=' + encodeURIComponent(frases[i]);
+           linkTwitter.target = '_blank';
+           var imgTwitter = document.createElement('img');
+           imgTwitter.id = 'imgfrases';
+           imgTwitter.src = 'imagens/redessociais/logo-twitter.jpg';
+           imgTwitter.alt = 'Compartilhar frases motivacionais no Twitter, compartilhar  Maya Angelou,Autoconfiança';
+           linkTwitter.appendChild(imgTwitter);
+   
+           divContainerIcon.appendChild(h4Compartilhar);
+           divContainerIcon.appendChild(imgCompartilhar);
+           divContainerIcon.appendChild(linkWhatsApp);
+           divContainerIcon.appendChild(linkFacebook);
+           divContainerIcon.appendChild(linkTwitter);
+   
+           divFrases.appendChild(imgAspas1);
+           divFrases.appendChild(pFrase);
+           divFrases.appendChild(imgAspas2);
+           divFrases.appendChild(pAutor);
+           divFrases.appendChild(divContainerIcon);
+   
+           containerFrases.appendChild(divFrases);
+       }
+   });
+</script>
+
+
+    <header id="cabecalho">
+        <section id="redessociais">
+            <a href="index.html"><img id="logo" src="imagens/ins-logo.png" alt="inspiracaomotivacional, inspiração motivacional, frases do dia, motivação, frases de motivação,  Maya Angelou,renomado escritor brasileiro,poema,Mentalidade positiva,Sonhos e realizações, filosófica, ,poetas, afirmação da vida,movimento literário, legado literário,escritora, poeta, ativista dos direitos civis e artista "></a>
+            <!--<img id="frasescentro" src="imagens/frases/frase1.png" alt="">-->
+            <div id="redeseimg">
+                <H1 id="h1redes">Redes Sociais</H1>
+                <a href="https://instagram.com/inspimotivacional?igshid=NTc4MTIwNjQ2YQ==" target="_blank"><img id="imgredes" src="imagens/redessociais/logo-instagram.jpg" alt="redes sociais, instagran, @inspimotivacional,  Maya Angelou,"></a>
+
+                <a href="https://www.youtube.com/channel/UCaROWi-DygUfVYYQmgF6zqg" target="_blank"><img id="imgredes" src="imagens/redessociais/logo-youtube.jpg" alt="youtube,videos motivacionais,  Maya Angelou,"></a>
+            </div>
+
+        </section>
+        <menu id="menu">
+            <ul id="ulmenu">
+                <a id="linkmenu" href="index.html">
+                    <li id="limenu">Inicio</li>
+                </a>
+                <a id="linkmenu" href="artigos.html">
+                    <li id="limenu">Artigos</li>
+                </a>
+                <a id="linkmenu" href="citacoes.html">
+                    <li id="limenu">Frases</li>
+                </a>
+                <a id="linkmenu" href="recursos.html">
+                    <li id="limenu">Recursos Motivacionais</li>
+                </a>
+
+            </ul>
+        </menu>
+    </header>
+    <section>
+        <section id="h1frases"><h1> Maya Angelou</h1></section>
+        <article id="containeragatha">
+            <p id="pagatha">
+                <img id="pimg" src="imagens/autores/maya_angelou.jpg" alt="inspiracaomotivacional, inspiração motivacional, frases do dia, motivação, frases de motivação,  Maya Angelou, Frases   Maya Angelou ,renomado polímata italiano do Renascimento ,amor, vida, reflexões,escritores, linguagem poética,Autoestima, filosofia, Autoajuda,A poesia de   Maya Angelou,legado literário, escritora, poeta, ativista dos direitos civis e artista ">
+                <a href="https://pt.wikipedia.org/wiki/Maya_Angelou">Maya Angelou</a> foi uma renomada escritora, poeta, ativista dos direitos civis e artista multifacetada. <br><br> Ela nasceu em 4 de abril de 1928 e faleceu em 28 de maio de 2014. <br><br> Angelou foi uma voz poderosa e inspiradora que abordou temas de raça, feminismo, identidade e superação em sua obra.<br><br> Sua escrita foi marcada pela sua sinceridade, força emocional e estilo eloquente. Seus trabalhos mais conhecidos incluem o livro de memórias "<a href="https://pt.wikipedia.org/wiki/I_Know_Why_the_Caged_Bird_Sings">Eu sei por que o pássaro canta na gaiola</a>" e o poema "<a href="https://pt.wikipedia.org/wiki/And_Still_I_Rise">Still I Rise</a>".<br><br> Angelou deixou um legado duradouro como uma das vozes mais influentes e importantes da literatura e dos direitos humanos.
+
+
+
+
+            </p>
+        </article>
+
+        <section>
+            <section id="h1frases"><h1>Frases de  Maya Angelou</h1></section>
+                                <!-- Frase 1 -->
+            <article id="containerfrases">
+               
+                 <!-- Frase 1 -->
+                <div id="frases"> <!-- inicio Divs de frases -->
+                    <img id="aspas1" src="imagens/icon/aspas1.png" alt="   Maya Angelou, motivação, inspiração motivacional, frases do dia, mensagen motivacional,, Autoestima,escritora, poeta, ativista dos direitos civis, ajuda,">
+                    <p id="pfrases">Não há uma maior agonia do que carregar uma história não contada.</p> <!-- Colocar a frase no compartilhamento do WhatsApp e Twitter -->
+                    <img id="aspas2" src="imagens/icon/aspas2.png" alt="Aspas, Frases  José de Alencar, "><br>
+                    <p><a href="maya_angelou.html"> Maya Angelou</a></p> <br>
+                    <div id="containericon">
+                        <h4>Compartilhar Frase</h4>
+                        <img id="imgcompartilhar" src="imagens/icon/compartilhar.png" alt="Compartilhar frases motivacionais, compartilhar frases de  Maya Angelou,Citações inspiradoras, Sucesso pessoal">
+                        <a href="https://api.whatsapp.com/send?text=Não há uma maior agonia do que carregar uma história não contada.%20https://www.inspiracaomotivacional.com.br/" target="_blank"><img id="imgfrases" src="imagens/redessociais/watz.png" alt="Compartilhar frases motivacionais no WhatsApp, compartilhar frases de  Maya Angelou,Motivação diária, Sonhos e realizações"></a>
+
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=https://inspiracaomotivacional.com.br/" target="_blank"><img id="imgfrases" src="imagens/redessociais/logo-facebook.png" alt="Compartilhar frases motivacionais no Facebook, compartilhar frases de  Maya Angelou,Transformação pessoal"></a>
+
+                        <a href="https://twitter.com/intent/tweet?url=https://www.inspiracaomotivacional.com.br%20Não há uma maior agonia do que carregar uma história não contada.%20https://www.inspiracaomotivacional.com.br/" target="_blank"><img id="imgfrases" src="imagens/redessociais/logo-twitter.jpg" alt="Compartilhar frases motivacionais no Twitter, compartilhar  Maya Angelou,Autoconfiança"></a>
+                    </div>
+                </div>
+                <!-- Final Frase 1-->
+
+
+                
+            </article>
+
+        </section>
+
+
+
+
+
+        <footer id="containerfooter">
+            <div><img id="imgfooter" src="imagens/ins-logo.png" alt=""></div>
+            <div>
+                <menu id="menufooter">
+                    <ul>
+                        <a id="linkmenufoo"  href="">
+                            <li id="limenufoo">Inicio</li>
+                        </a>
+                        <a id="linkmenufoo" href="">
+                            <li id="limenufoo">Artigos</li>
+                        </a>
+                        <a id="linkmenufoo" href="">
+                            <li id="limenufoo">Frases</li>
+                        </a>
+                        <a id="linkmenufoo" href="">
+                            <li id="limenufoo">Recursos Motivacionais</li>
+                        </a>
+                    </ul>
+                </menu>
+            </div>
+        </footer>
+        
+            <p id="direitos"> &#169 
+                Todos os direitos reservado ao inspiracaomotivacional</p>
+</body>
+</html>
