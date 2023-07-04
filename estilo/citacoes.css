@@ -169,3 +169,64 @@ body{
     width: 300px;
    text-align: center;
 }
+
+
+/* footer*/
+
+#footer{
+    background-image: linear-gradient(to right, #ffa630, #ff7b9c );
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px;
+
+}
+#containerfooter{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px;
+    background-image: linear-gradient(to right, #ffa630, #ff7b9c );
+    display: grid;
+    
+}
+
+#imgfooter{
+    width: 200px;
+    margin-left: 10px;
+}
+#direitos{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+
+#menufoo{
+    text-decoration: none;
+    
+    
+    
+}
+#ulmenufoo > a{
+    text-decoration: none;
+  
+    
+}
+#limenufoo{
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    
+}
+#linkmenufoo{
+    color: black;
+    font-family: var(--fonte-padrao);
+    text-decoration: none;
+    
+}
+
+
+#imgfooter{
+    width: 200px;
+    margin-left: 10px;
+}
