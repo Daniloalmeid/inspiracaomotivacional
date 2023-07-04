@@ -37,9 +37,6 @@ body{
 #cabecalho{
     background-image: linear-gradient(to right, #ffa630, #ff7b9c );
 }
-#redessociais{
- 
-}
 
 
 #logo{
@@ -63,9 +60,7 @@ body{
     
     
 }
-#ulmenu{
-    
-}
+
 #limenu{
     display: inline-block;
     padding: 10px;
@@ -117,4 +112,60 @@ body{
     border: solid white;
     transform: translate( 2px, -5px);
     transition: transform 0.4s, border .2s;
+}
+
+/* Autores */
+
+#containerautores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+#autores{
+    background-color: var(--cor3);
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+
+#autores:hover{
+    
+    background-color: white;
+    
+}
+#autores > a{
+    color: black;
+    text-decoration: none;
+}
+
+
+#divisao{
+    background-color: var(--cor4);
+    padding: 10px;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+#videos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;   
+}
+#frame{
+    width: 360px;
+    height: 215px;
+    padding: 10px;
+}
+
+#frasescentro{
+    width: 300px;
+   text-align: center;
 }
