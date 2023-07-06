@@ -119,6 +119,17 @@ body{
 
 /* Autores */
 
+
+
+#containerautores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    
+}
+
 #h2autores{
     padding: 10px;
     font-family: var(--fonte-texto2);
@@ -129,17 +140,11 @@ body{
     font-family: var(--fonte-texto2);
 }
 
-#pautores{
-    padding: 10px;
-    font-family: var(--fonte-texto2);
-}
-
-#containerautores{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    
+#descricao{
+    background-color: #a20021;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
     
 }
 
