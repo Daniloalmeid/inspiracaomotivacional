@@ -105,12 +105,8 @@ body{
     
 }
 
-#imgcitacoes > img{
-    width: 300px;
-    height: 200px;
-   border-radius: 10px;
-   border: solid #ffa630;
-}
+
+
 #imgcitacoes >img:hover{
     border: solid white;
     transform: translate( 2px, -5px);
@@ -144,6 +140,7 @@ body{
 #autores > a{
     color: black;
     text-decoration: none;
+    
 }
 
 
