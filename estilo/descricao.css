@@ -109,6 +109,8 @@ body{
     display: grid;
     margin: auto;
     background-color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
     
 }
 
