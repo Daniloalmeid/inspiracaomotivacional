@@ -99,17 +99,19 @@ body{
 #imglivro{
     text-align: center;
     margin-top: 10px;
+    padding: 10px;
 }
 
 #h2autor{
-    
+    padding: 10px;
     text-align: center;
 }
 
 
 
 #descricaolivro > p{
-
+padding: 10px;
+text-justify: auto;
 }
 
 /* footer*/
