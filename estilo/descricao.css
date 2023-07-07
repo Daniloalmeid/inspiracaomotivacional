@@ -87,13 +87,29 @@ body{
     
 
 }
+    /* Estilos para tela grande */
+@media only screen and (min-width: 768px) {
+    #descricaolivro {
+      width: 60%;
+    }
+  }
+
+  /* Estilos para celular */
+  @media only screen and (max-width: 767px) {
+    #descricaolivro {
+      width: 90%;
+    }
+  }
+
+
+
 
 #descricaolivro{
-    width: 90%;
     display: flex;
     display: grid;
     margin: auto;
     background-color: white;
+    
 }
 
 #imglivro{
