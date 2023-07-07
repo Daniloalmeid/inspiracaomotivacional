@@ -126,6 +126,15 @@ body{
     text-align: center;
 }
 
+#h22autores{
+    padding: 10px;
+    font-family: var(--fonte-texto2);
+    font-size: 1.3em;
+}
+
+
+
+
 
 
 #descricaolivro > p{

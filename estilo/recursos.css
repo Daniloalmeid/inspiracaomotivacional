@@ -135,6 +135,13 @@ body{
     font-family: var(--fonte-texto2);
 }
 
+#h22autores{
+    padding: 10px;
+    font-family: var(--fonte-texto2);
+    font-size: 1.3em;
+}
+
+
 #h3autores{
     padding: 10px;
     font-family: var(--fonte-texto2);
