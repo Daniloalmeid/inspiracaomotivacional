@@ -203,6 +203,24 @@ body{
    text-align: center;
 }
 
+/* Filmes */
+
+#articlefilmes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    
+}
+
+#containerfilmes{
+    padding: 10px;
+    margin: 10px;
+    background-color: var(--cor3);
+
+}
+
 
 /* footer*/
 
