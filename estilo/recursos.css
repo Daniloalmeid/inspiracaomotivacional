@@ -222,6 +222,12 @@ body{
 
 }
 
+#sinopse{
+    text-align: center;
+    background-color: var(--cor1);
+    color: white;
+}
+
 
 /* footer*/
 
