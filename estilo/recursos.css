@@ -241,8 +241,8 @@ body{
   @media (max-width: 600px) {
     #containerfilmes {
       /* Estilos para a div em dispositivos móveis */
-      width: 200px;
-      height: 190px;
+      width: 190px;
+      height: 185px;
     }
     
   }
