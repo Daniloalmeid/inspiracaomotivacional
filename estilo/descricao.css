@@ -168,11 +168,11 @@ body{
     display: flex;
     display: grid;
     margin: auto;
-   background-color: rgb(216, 17, 17);
+    background-color: white;
     margin-top: 20px;
     margin-bottom: 10px;
     padding: 15px;
-    width: 80%;
+    
     
     
 }
@@ -181,6 +181,7 @@ body{
     text-align: center;
     margin-top: 10px;
     padding: 10px;
+    
 }
 
 #h2autor{
