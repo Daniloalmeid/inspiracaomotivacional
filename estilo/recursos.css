@@ -223,7 +223,7 @@ body{
 
 #containerfilmes{
     padding: 1px;
-    margin: 10px;
+    margin: 5px;
     border: 1.5px solid black;
     width: 400px;
     height: 310px;
@@ -241,7 +241,7 @@ body{
   @media (max-width: 600px) {
     #containerfilmes {
       /* Estilos para a div em dispositivos móveis */
-      width: 180px;
+      width: 200px;
       height: 178px;
     }
     
