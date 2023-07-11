@@ -242,14 +242,14 @@ body{
   @media (max-width: 600px) {
     #containerfilmes {
       /* Estilos para a div em dispositivos móveis */
-      width: 150px;
-      height: 180px;
+      width: 180px;
+      height: 178px;
     }
     
   }
 
   @media (max-width: 600px) {
-    #autores h2,h3,h4 {
+    #containerfilmes h2,h3,h4 {
       /* Estilos para a div em dispositivos móveis */
      font-size: 0.8em;
     }
