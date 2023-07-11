@@ -292,7 +292,7 @@ font-family: var(--fonte-texto);
 
 @media only screen and (min-width: 768px) {
     #paragrafo {
-      width: 90%;
+      width: 60%;
     }
   }
 
