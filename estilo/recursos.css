@@ -126,6 +126,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin: 20px;
     
     
 }
@@ -156,30 +157,32 @@ body{
 }
 
 #autores{
-    width: 300px;
+    width: 250px;
     height: 500px;
-    padding: 10px;
+    padding: 5px;
     margin: 5px;
     text-decoration: none;
     transition: background-color 0.3s;
     border-radius: 20px;
+    
 }
 
 
 #autores img {
     /* Estilos para a div em telas grandes */
     width: 100%;
-     height: auto;
-    background-color: #ccc;
+    height: auto;
+    background-color: #47e5bc;
   }
   
   /* Media query para dispositivos com largura máxima de 600px (dispositivos móveis) */
   @media (max-width: 600px) {
     #autores {
       /* Estilos para a div em dispositivos móveis */
-      width: 200px;
-      height: 300px;
+      width: 150px;
+      height: 250px;
     }
+    
   }
 
 
