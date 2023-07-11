@@ -87,19 +87,79 @@ body{
     
 
 }
-    /* Estilos para tela grande */
-@media only screen and (min-width: 768px) {
-    #descricaolivro {
-      width: 60%;
+#containerautores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+    background-color: white;
+    
+    
+}
+
+#h2autores{
+    padding: px;
+    font-family: var(--fonte-texto2);
+}
+
+#h22autores{
+    padding: 5px;
+    font-family: var(--fonte-texto2);
+}
+
+
+#h3autores{
+    padding: 5px;
+    font-family: var(--fonte-texto2);
+}
+
+#descricao{
+    background-color: #a20021;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+
+#autores{
+    width: 250px;
+    height: 500px;
+    margin: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 7px;
+    
+}
+
+
+#autores img {
+    /* Estilos para a div em telas grandes */
+    width: 100%;
+    height: auto;
+    background-color: #47e5bc;
+  }
+  
+  /* Media query para dispositivos com largura máxima de 600px (dispositivos móveis) */
+  @media (max-width: 600px) {
+    #autores {
+      /* Estilos para a div em dispositivos móveis */
+      width: 150px;
+      height: 300px;
     }
+    
   }
 
-  /* Estilos para celular */
-  @media only screen and (max-width: 767px) {
-    #descricaolivro {
-      width: 90%;
+  @media (max-width: 600px) {
+    #autores h2,h3,h4 {
+      /* Estilos para a div em dispositivos móveis */
+     font-size: 0.8em;
     }
+    
   }
+
 
 
 
@@ -185,12 +245,12 @@ font-family: var(--fonte-texto);
 }
 
 #h2autores{
-    padding: 10px;
+    padding: 5px;
     font-family: var(--fonte-texto2);
 }
 
 #h3autores{
-    padding: 10px;
+    padding: 5px;
     font-family: var(--fonte-texto2);
 }
 
@@ -203,12 +263,12 @@ font-family: var(--fonte-texto);
 }
 
 #autores{
-    background-color: var(--cor3);
-    padding: 10px;
+    
+    padding: 5px;
     margin: 5px;
     text-decoration: none;
     transition: background-color 0.3s;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 
