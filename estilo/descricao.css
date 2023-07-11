@@ -132,6 +132,10 @@ body{
     font-size: 1.3em;
 }
 
+#h2elenco{
+    padding: 20px;
+}
+
 #containerelenco{
     display: flex;
     justify-content: center;
@@ -143,6 +147,9 @@ body{
 #imgelenco{
     padding: 10px;
     
+}
+#imgelenco > h4{
+    text-align: center;
 }
 
 
