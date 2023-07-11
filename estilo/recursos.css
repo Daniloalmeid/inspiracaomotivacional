@@ -215,17 +215,46 @@ body{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    
+    background-color: white;  
+}
+
+#imgfilmes{
     
 }
 
 #containerfilmes{
-    padding: 10px;
+    padding: 1px;
     margin: 10px;
-    background-color: gray;
-    width: 350px;
+    border: 2px solid black;
+    width: 400px;
+    height: 310px;
 
 }
+
+#imgfilmes {
+    /* Estilos para a div em telas grandes */
+    width: 100%;
+    height: auto;
+    background-color: #47e5bc;
+  }
+  
+  /* Media query para dispositivos com largura máxima de 600px (dispositivos móveis) */
+  @media (max-width: 600px) {
+    #containerfilmes {
+      /* Estilos para a div em dispositivos móveis */
+      width: 150px;
+      height: 180px;
+    }
+    
+  }
+
+  @media (max-width: 600px) {
+    #autores h2,h3,h4 {
+      /* Estilos para a div em dispositivos móveis */
+     font-size: 0.8em;
+    }
+    
+  }
 
 #nomefilme{
     padding: 10px;
