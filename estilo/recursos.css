@@ -156,13 +156,31 @@ body{
 }
 
 #autores{
-    background-color: var(--cor3);
+    width: 300px;
+    height: 500px;
     padding: 10px;
     margin: 5px;
     text-decoration: none;
     transition: background-color 0.3s;
     border-radius: 20px;
 }
+
+
+#autores img {
+    /* Estilos para a div em telas grandes */
+    width: 100%;
+     height: auto;
+    background-color: #ccc;
+  }
+  
+  /* Media query para dispositivos com largura máxima de 600px (dispositivos móveis) */
+  @media (max-width: 600px) {
+    #autores {
+      /* Estilos para a div em dispositivos móveis */
+      width: 200px;
+      height: 300px;
+    }
+  }
 
 
 #autores:hover{
@@ -190,7 +208,7 @@ body{
 #containerfilmes{
     padding: 10px;
     margin: 10px;
-    background-color: var(--cor3);
+    background-color: gray;
     width: 350px;
 
 }
