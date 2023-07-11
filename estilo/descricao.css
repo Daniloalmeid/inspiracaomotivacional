@@ -172,6 +172,7 @@ body{
     margin-top: 20px;
     margin-bottom: 10px;
     padding: 15px;
+    width: 80%;
     
 }
 
@@ -179,6 +180,7 @@ body{
     text-align: center;
     margin-top: 10px;
     padding: 10px;
+   
 }
 
 #h2autor{
@@ -281,6 +283,10 @@ font-family: var(--fonte-texto);
     color: black;
     text-decoration: none;
     
+}#paragrafo{
+    width: 80%;
+    background-color: white;
+    margin: auto;
 }
 
 /* footer*/
