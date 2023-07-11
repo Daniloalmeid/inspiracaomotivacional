@@ -127,24 +127,25 @@ body{
     align-items: center;
     flex-wrap: wrap;
     margin: 20px;
+    background-color: white;
     
     
 }
 
 #h2autores{
-    padding: 10px;
+    padding: px;
     font-family: var(--fonte-texto2);
 }
 
 #h22autores{
-    padding: 10px;
+    padding: 5px;
     font-family: var(--fonte-texto2);
     font-size: 1.3em;
 }
 
 
 #h3autores{
-    padding: 10px;
+    padding: 5px;
     font-family: var(--fonte-texto2);
 }
 
@@ -159,7 +160,6 @@ body{
 #autores{
     width: 250px;
     height: 500px;
-    padding: 5px;
     margin: 5px;
     text-decoration: none;
     transition: background-color 0.3s;
