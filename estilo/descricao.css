@@ -168,11 +168,12 @@ body{
     display: flex;
     display: grid;
     margin: auto;
-    background-color: white;
+   background-color: white;
     margin-top: 20px;
     margin-bottom: 10px;
     padding: 15px;
     width: 80%;
+    
     
 }
 
@@ -180,7 +181,6 @@ body{
     text-align: center;
     margin-top: 10px;
     padding: 10px;
-   
 }
 
 #h2autor{
@@ -284,22 +284,21 @@ font-family: var(--fonte-texto);
     text-decoration: none;
     
 }#paragrafo{
-    
     text-justify: auto;
-    background-color: white;
+    
     margin: auto;
 }
 
 @media only screen and (min-width: 768px) {
-    .paragrafo {
-      width: 60%;
+    #paragrafo {
+      width: 90%;
     }
   }
 
   /* Estilos para celular */
   @media only screen and (max-width: 767px) {
     #paragrafo {
-      width: 90%;
+      width: 100%;
     }
   }
 
