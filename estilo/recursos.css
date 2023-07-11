@@ -126,7 +126,6 @@ body{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin: 20px;
     background-color: white;
     
     
@@ -225,7 +224,7 @@ body{
 #containerfilmes{
     padding: 1px;
     margin: 10px;
-    border: 2px solid black;
+    border: 1.5px solid black;
     width: 400px;
     height: 310px;
 
